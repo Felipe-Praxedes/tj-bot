@@ -226,7 +226,7 @@ class tj_bot:
 
                     l_data.append(data) # Gera lista
 
-                    self.gerar_arquivo(l_data)
+                    self.gerar_arquivo(l_data) # Gera arquivo em excel
 
                     proxima_lista += 1
                     proximo_processo += 1
